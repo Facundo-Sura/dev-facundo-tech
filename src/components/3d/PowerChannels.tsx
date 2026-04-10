@@ -75,7 +75,13 @@ function CircuitTrace({
 
   const baseColor = new THREE.Color(color);
   const blueColor = new THREE.Color("#00d4ff");
-  const finalColor = baseColor.clone().lerp(blueColor, 0.25);
+  
+  // Apply visual feedback for active/hovered states
+  const isHighlighted = isActive || hovered;
+  const highlightBlend = isHighlighted ? 0.4 : 0.25;
+  const finalColor = baseColor.clone().lerp(blueColor, highlightBlend);
+  const finalOpacity = isHighlighted ? 1 : 0.85;
+  const finalEmissive = isHighlighted ? 0.3 : 0;
 
   return (
     <mesh
@@ -91,6 +97,10 @@ function CircuitTrace({
         color={finalColor.getStyle()}
         metalness={0.6}
         roughness={0.3}
+        transparent
+        opacity={finalOpacity}
+        emissive={finalColor.getStyle()}
+        emissiveIntensity={finalEmissive}
       />
     </mesh>
   );
