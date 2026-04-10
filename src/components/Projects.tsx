@@ -6,33 +6,39 @@ const projects = [
   {
     title: "inmobiliaria Scotto",
     description: "Professional website about real estate or construction companies.",
-    image: "/project0.jpg",
-    link: "https://inmobiliariascotto.com.ar",
+    image: "/project0.webp",
+    link: "",
   },
   {
     title: "Titanium Team",
     description: "Professional website about full contact combat school.",
-    image: "/project1.jpg",
-    link: "https://titanium-team.vercel.app",
+    image: "/project1.webp",
+    link: "",
   },
   {
     title: "Estudio juridico Sura",
     description: "Professional website about law firms.",
-    image: "/project2.jpg",
-    link: "https://estudio-juridico-sura.vercel.app",
+    image: "/project2.webp",
+    link: "",
   },
   {
-    title: "Inmobiliaria Prefab",
+    title: "",
     description: "Sample landing page 1 about real estate or construction companies.",
-    image: "/project3.jpg",
-    link: "https://inmobiliaria-gules.vercel.app/",
+    image: "/project3.webp",
+    link: "",
   },
   {
-    title: "Landing Page Peugeot",
+    title: "",
     description: "Sample landing page 2 about Peugeot vehicles.",
-    image: "/project4.jpg",
-    link: "https://peugeotlanding.vercel.app/",
+    image: "/project4.webp",
+    link: "",
   },
+  {
+    title: "",
+    description: "Sample landing page 3 about real estate or construction companies.",
+    image: "/project5.webp",
+    link: "",
+  }
 ];
 
 export default function Projects() {
