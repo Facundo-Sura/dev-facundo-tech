@@ -4,9 +4,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
   FaReact,
   FaNodeJs,
   FaPython,
@@ -19,7 +16,6 @@ import {
   FaBootstrap,
 } from "react-icons/fa";
 import {
-  SiTypescript,
   SiVite,
   SiNextdotjs,
   SiPostgresql,
@@ -112,10 +108,6 @@ function SkillsSection() {
       title: "Frontend",
       color: "green",
       items: [
-        { name: "HTML", icon: <FaHtml5 /> },
-        { name: "CSS", icon: <FaCss3Alt /> },
-        { name: "JavaScript", icon: <FaJs /> },
-        { name: "TypeScript", icon: <SiTypescript /> },
         { name: "React", icon: <FaReact /> },
         { name: "Vite", icon: <SiVite /> },
         { name: "Bootstrap", icon: <FaBootstrap /> },
@@ -127,7 +119,7 @@ function SkillsSection() {
     },
     {
       title: "Backend",
-      color: "violet",
+      color: "green",
       items: [
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Express", icon: <SiExpress /> },
@@ -138,7 +130,7 @@ function SkillsSection() {
     },
     {
       title: "Database",
-      color: "emerald",
+      color: "green",
       items: [
         { name: "PostgreSQL", icon: <SiPostgresql /> },
         { name: "MySQL", icon: <SiMysql /> },
@@ -148,7 +140,7 @@ function SkillsSection() {
     },
     {
       title: "DevOps & Tools",
-      color: "amber",
+      color: "green",
       items: [
         { name: "Vercel", icon: <SiVercel /> },
         { name: "Render", icon: <SiRender /> },
@@ -193,35 +185,17 @@ function SkillsSection() {
 
 const projects = [
   {
-    title: "inmobiliaria Scotto",
+    title: "edulingua",
     description: "Professional website about real estate or construction companies.",
-    image: "/project0.jpg",
-    link: "https://inmobiliariascotto.com.ar",
+    image: "/edulingua.webp",
+    link: "https://app-clases-idiomas.vercel.app/",
   },
   {
-    title: "Titanium Team",
+    title: "cleanswift",
     description: "Professional website about full contact combat school.",
-    image: "/project1.jpg",
-    link: "https://titanium-team.vercel.app",
-  },
-  {
-    title: "Estudio juridico Sura",
-    description: "Professional website about law firms.",
-    image: "/project2.jpg",
-    link: "https://estudio-juridico-sura.vercel.app",
-  },
-  {
-    title: "Inmobiliaria Prefab",
-    description: "Sample landing page about real estate or construction companies.",
-    image: "/project3.jpg",
-    link: "https://inmobiliaria-gules.vercel.app/",
-  },
-  {
-    title: "Landing Page Peugeot",
-    description: "Sample landing page about Peugeot vehicles.",
-    image: "/project4.jpg",
-    link: "https://peugeotlanding.vercel.app/",
-  },
+    image: "/cleanswift.webp",
+    link: "https://app-limpieza-nine.vercel.app/",
+  }
 ];
 
 function ProjectsSection() {
