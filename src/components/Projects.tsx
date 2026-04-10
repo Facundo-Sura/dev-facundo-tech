@@ -4,40 +4,16 @@ import Image from "next/image"; // 👈 Importamos Image
 
 const projects = [
   {
-    title: "inmobiliaria Scotto",
+    title: "edulingua",
     description: "Professional website about real estate or construction companies.",
-    image: "/project0.webp",
-    link: "",
+    image: "/edulingua.webp",
+    link: "https://app-clases-idiomas.vercel.app/",
   },
   {
-    title: "Titanium Team",
+    title: "cleanswift",
     description: "Professional website about full contact combat school.",
-    image: "/project1.webp",
-    link: "",
-  },
-  {
-    title: "Estudio juridico Sura",
-    description: "Professional website about law firms.",
-    image: "/project2.webp",
-    link: "",
-  },
-  {
-    title: "",
-    description: "Sample landing page 1 about real estate or construction companies.",
-    image: "/project3.webp",
-    link: "",
-  },
-  {
-    title: "",
-    description: "Sample landing page 2 about Peugeot vehicles.",
-    image: "/project4.webp",
-    link: "",
-  },
-  {
-    title: "",
-    description: "Sample landing page 3 about real estate or construction companies.",
-    image: "/project5.webp",
-    link: "",
+    image: "/cleanswift.webp",
+    link: "https://app-limpieza-nine.vercel.app/",
   }
 ];
 

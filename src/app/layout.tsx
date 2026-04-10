@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ResponsiveAside from "@/components/Aside";
+import WhatsAppWidget from "@/components/WhatappButton";
 
 export const metadata: Metadata = {
   title: "Facundo Sura | Full Stack Web Developer | Remote Worldwide",
@@ -99,6 +100,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased bg-black">
         <ResponsiveAside />
+        <WhatsAppWidget />
         {children}
       </body>
     </html>
